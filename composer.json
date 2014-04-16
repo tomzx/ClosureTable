@@ -20,7 +20,8 @@
         "way/laravel-test-helpers": "dev-master",
         "mockery/mockery": "dev-master",
         "orchestra/testbench": "dev-master",
-        "doctrine/dbal": "dev-master"
+        "doctrine/dbal": "dev-master",
+        "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
         "classmap": ["tests"],
