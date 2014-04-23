@@ -30,6 +30,6 @@ class Str extends BaseStr {
     {
         $name = str_replace('\\', '', $name);
 
-        return (ends_with($name, 'Closure') ? snake_case($name) : snake_case(str_plural($name)));
+        return snake_case(str_plural($name)));
     }
 } 
